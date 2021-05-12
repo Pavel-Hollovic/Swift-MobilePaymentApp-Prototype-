@@ -1,0 +1,6 @@
+framework module Pods_CheckCheckTests {
+  umbrella header "Pods-CheckCheckTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

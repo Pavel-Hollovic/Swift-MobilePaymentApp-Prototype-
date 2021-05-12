@@ -3,16 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D397BB55BC281CEC50C7081 /* Pods_CheckCheckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580661B42C22F44BF360CE4B /* Pods_CheckCheckTests.framework */; };
 		864D9A8B25D99023004722C3 /* CheckCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D9A8A25D99023004722C3 /* CheckCheckApp.swift */; };
-		864D9A8D25D99023004722C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D9A8C25D99023004722C3 /* ContentView.swift */; };
 		864D9A8F25D99027004722C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864D9A8E25D99027004722C3 /* Assets.xcassets */; };
 		864D9A9225D99027004722C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864D9A9125D99027004722C3 /* Preview Assets.xcassets */; };
 		864D9A9D25D99027004722C3 /* CheckCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D9A9C25D99027004722C3 /* CheckCheckTests.swift */; };
 		864D9AA825D99027004722C3 /* CheckCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D9AA725D99027004722C3 /* CheckCheckUITests.swift */; };
+		864D9AB925D99074004722C3 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D9AB825D99074004722C3 /* QRCodeView.swift */; };
+		866177C725E2BDC50012BDA9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866177C625E2BDC50012BDA9 /* Data.swift */; };
+		8680FA9B25EBE022007E1138 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680FA9A25EBE022007E1138 /* Transaction.swift */; };
+		868A22BA25EC38B3005A2B8F /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A22B925EC38B3005A2B8F /* TransactionRepository.swift */; };
+		869A3FAB898A2D9CD0865B93 /* Pods_CheckCheck_CheckCheckUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04B09D8E055D9D8F10D15CC /* Pods_CheckCheck_CheckCheckUITests.framework */; };
+		86CCE8FC262C30A100BA3C1F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CCE8FB262C30A100BA3C1F /* MenuView.swift */; };
+		86CCE9E7262E019000BA3C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CCE9E6262E019000BA3C1F /* ContentView.swift */; };
+		86DC1FDA260A70500071AD56 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC1FD9260A70500071AD56 /* SignInWithAppleButton.swift */; };
+		86DC1FDF260A72300071AD56 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC1FDE260A72300071AD56 /* SignInView.swift */; };
+		86DC1FE5260A78C50071AD56 /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC1FE4260A78C50071AD56 /* SignInWithAppleCoordinator.swift */; };
+		86DC1FFA261A49250071AD56 /* icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 86DC1FF9261A49230071AD56 /* icon.PNG */; };
+		86DC2005261B3CB90071AD56 /* CheckCheckClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC2004261B3CB90071AD56 /* CheckCheckClipApp.swift */; };
+		86DC2007261B3CB90071AD56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC2006261B3CB90071AD56 /* ContentView.swift */; };
+		86DC2009261B3CC00071AD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86DC2008261B3CC00071AD56 /* Assets.xcassets */; };
+		86DC200C261B3CC00071AD56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86DC200B261B3CC00071AD56 /* Preview Assets.xcassets */; };
+		86DC2018261B3CC00071AD56 /* CheckCheckClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC2017261B3CC00071AD56 /* CheckCheckClipTests.swift */; };
+		86DC2023261B3CC00071AD56 /* CheckCheckClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC2022261B3CC00071AD56 /* CheckCheckClipUITests.swift */; };
+		86DC2027261B3CC00071AD56 /* CheckCheckClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 86DC2002261B3CB90071AD56 /* CheckCheckClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86F71D3725EBF72600EB3F79 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680FAC325EBF62D007E1138 /* TransactionListView.swift */; };
+		86F71D3B25EBF72900EB3F79 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D9A8C25D99023004722C3 /* MainScreenView.swift */; };
+		86F71D9925EC060400EB3F79 /* TransactionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F71D9825EC060400EB3F79 /* TransactionCellViewModel.swift */; };
+		86F71DA125EC0B3B00EB3F79 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F71DA025EC0B3B00EB3F79 /* TransactionListViewModel.swift */; };
+		86F71DA625EC263900EB3F79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86F71DA525EC263900EB3F79 /* GoogleService-Info.plist */; };
+		D06F5B7B4FB159FA0495BE1C /* Pods_CheckCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F4433C9280072AC049E982 /* Pods_CheckCheck.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +54,52 @@
 			remoteGlobalIDString = 864D9A8625D99023004722C3;
 			remoteInfo = CheckCheck;
 		};
+		86DC2014261B3CC00071AD56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864D9A7F25D99023004722C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DC2001261B3CB90071AD56;
+			remoteInfo = CheckCheckClip;
+		};
+		86DC201F261B3CC00071AD56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864D9A7F25D99023004722C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DC2001261B3CB90071AD56;
+			remoteInfo = CheckCheckClip;
+		};
+		86DC2025261B3CC00071AD56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864D9A7F25D99023004722C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DC2001261B3CB90071AD56;
+			remoteInfo = CheckCheckClip;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		86DC2028261B3CC00071AD56 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				86DC2027261B3CC00071AD56 /* CheckCheckClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		09093C7455014351BE10BF56 /* Pods-CheckCheckTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckCheckTests.release.xcconfig"; path = "Target Support Files/Pods-CheckCheckTests/Pods-CheckCheckTests.release.xcconfig"; sourceTree = "<group>"; };
+		580661B42C22F44BF360CE4B /* Pods_CheckCheckTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckCheckTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F4433C9280072AC049E982 /* Pods_CheckCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3A04D22003384DC9393263 /* Pods-CheckCheckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckCheckTests.debug.xcconfig"; path = "Target Support Files/Pods-CheckCheckTests/Pods-CheckCheckTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F8D1A5A6636CE21F8BA7674 /* Pods-CheckCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckCheck.debug.xcconfig"; path = "Target Support Files/Pods-CheckCheck/Pods-CheckCheck.debug.xcconfig"; sourceTree = "<group>"; };
 		864D9A8725D99023004722C3 /* CheckCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		864D9A8A25D99023004722C3 /* CheckCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCheckApp.swift; sourceTree = "<group>"; };
-		864D9A8C25D99023004722C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		864D9A8C25D99023004722C3 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		864D9A8E25D99027004722C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864D9A9125D99027004722C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		864D9A9325D99027004722C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +109,38 @@
 		864D9AA325D99027004722C3 /* CheckCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		864D9AA725D99027004722C3 /* CheckCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCheckUITests.swift; sourceTree = "<group>"; };
 		864D9AA925D99027004722C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864D9AB825D99074004722C3 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		866177C625E2BDC50012BDA9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8680FA9A25EBE022007E1138 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		8680FAC325EBF62D007E1138 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		868A22B925EC38B3005A2B8F /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		86CCE8FB262C30A100BA3C1F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		86CCE9E6262E019000BA3C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86DC1FD9260A70500071AD56 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		86DC1FDE260A72300071AD56 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		86DC1FE4260A78C50071AD56 /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
+		86DC1FF5260A926F0071AD56 /* CheckCheck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheckCheck.entitlements; sourceTree = "<group>"; };
+		86DC1FF9261A49230071AD56 /* icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.PNG; path = Assets.xcassets/icon.PNG; sourceTree = "<group>"; };
+		86DC2002261B3CB90071AD56 /* CheckCheckClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckCheckClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DC2004261B3CB90071AD56 /* CheckCheckClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCheckClipApp.swift; sourceTree = "<group>"; };
+		86DC2006261B3CB90071AD56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86DC2008261B3CC00071AD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86DC200B261B3CC00071AD56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86DC200D261B3CC00071AD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DC200E261B3CC00071AD56 /* CheckCheckClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheckCheckClip.entitlements; sourceTree = "<group>"; };
+		86DC2013261B3CC00071AD56 /* CheckCheckClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckCheckClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DC2017261B3CC00071AD56 /* CheckCheckClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCheckClipTests.swift; sourceTree = "<group>"; };
+		86DC2019261B3CC00071AD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DC201E261B3CC00071AD56 /* CheckCheckClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckCheckClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DC2022261B3CC00071AD56 /* CheckCheckClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCheckClipUITests.swift; sourceTree = "<group>"; };
+		86DC2024261B3CC00071AD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F71D9825EC060400EB3F79 /* TransactionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCellViewModel.swift; sourceTree = "<group>"; };
+		86F71DA025EC0B3B00EB3F79 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		86F71DA525EC263900EB3F79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		972E596FC0CA4F6D81647559 /* Pods-CheckCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckCheck.release.xcconfig"; path = "Target Support Files/Pods-CheckCheck/Pods-CheckCheck.release.xcconfig"; sourceTree = "<group>"; };
+		ABD6F5BAD57C32DD538A1C65 /* Pods-CheckCheck-CheckCheckUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckCheck-CheckCheckUITests.release.xcconfig"; path = "Target Support Files/Pods-CheckCheck-CheckCheckUITests/Pods-CheckCheck-CheckCheckUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC1514D3BB4ADD951F30EDDF /* Pods-CheckCheck-CheckCheckUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckCheck-CheckCheckUITests.debug.xcconfig"; path = "Target Support Files/Pods-CheckCheck-CheckCheckUITests/Pods-CheckCheck-CheckCheckUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D04B09D8E055D9D8F10D15CC /* Pods_CheckCheck_CheckCheckUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckCheck_CheckCheckUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06F5B7B4FB159FA0495BE1C /* Pods_CheckCheck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +156,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D397BB55BC281CEC50C7081 /* Pods_CheckCheckTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		864D9AA025D99027004722C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869A3FAB898A2D9CD0865B93 /* Pods_CheckCheck_CheckCheckUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DC1FFF261B3CB90071AD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DC2010261B3CC00071AD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DC201B261B3CC00071AD56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,13 +192,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81651E9F023EBBDC0C480705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75F4433C9280072AC049E982 /* Pods_CheckCheck.framework */,
+				D04B09D8E055D9D8F10D15CC /* Pods_CheckCheck_CheckCheckUITests.framework */,
+				580661B42C22F44BF360CE4B /* Pods_CheckCheckTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		864D9A7E25D99023004722C3 = {
 			isa = PBXGroup;
 			children = (
 				864D9A8925D99023004722C3 /* CheckCheck */,
 				864D9A9B25D99027004722C3 /* CheckCheckTests */,
 				864D9AA625D99027004722C3 /* CheckCheckUITests */,
+				86DC2003261B3CB90071AD56 /* CheckCheckClip */,
+				86DC2016261B3CC00071AD56 /* CheckCheckClipTests */,
+				86DC2021261B3CC00071AD56 /* CheckCheckClipUITests */,
 				864D9A8825D99023004722C3 /* Products */,
+				E8DDE1D9B1DE6B795D0A4623 /* Pods */,
+				81651E9F023EBBDC0C480705 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +223,9 @@
 				864D9A8725D99023004722C3 /* CheckCheck.app */,
 				864D9A9825D99027004722C3 /* CheckCheckTests.xctest */,
 				864D9AA325D99027004722C3 /* CheckCheckUITests.xctest */,
+				86DC2002261B3CB90071AD56 /* CheckCheckClip.app */,
+				86DC2013261B3CC00071AD56 /* CheckCheckClipTests.xctest */,
+				86DC201E261B3CC00071AD56 /* CheckCheckClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,10 +233,18 @@
 		864D9A8925D99023004722C3 /* CheckCheck */ = {
 			isa = PBXGroup;
 			children = (
+				86DC1FF5260A926F0071AD56 /* CheckCheck.entitlements */,
 				864D9A8A25D99023004722C3 /* CheckCheckApp.swift */,
-				864D9A8C25D99023004722C3 /* ContentView.swift */,
+				866177C625E2BDC50012BDA9 /* Data.swift */,
+				86DC1FE3260A785F0071AD56 /* Services */,
+				868A22B525EC3870005A2B8F /* Repositories */,
+				8680FAB325EBECB8007E1138 /* Model */,
+				86F71D9725EC05BC00EB3F79 /* ViewModel */,
+				8680FAB425EBECC9007E1138 /* View */,
 				864D9A8E25D99027004722C3 /* Assets.xcassets */,
 				864D9A9325D99027004722C3 /* Info.plist */,
+				86DC1FF9261A49230071AD56 /* icon.PNG */,
+				86F71DA525EC263900EB3F79 /* GoogleService-Info.plist */,
 				864D9A9025D99027004722C3 /* Preview Content */,
 			);
 			path = CheckCheck;
@@ -130,6 +276,105 @@
 			path = CheckCheckUITests;
 			sourceTree = "<group>";
 		};
+		8680FAB325EBECB8007E1138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8680FA9A25EBE022007E1138 /* Transaction.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8680FAB425EBECC9007E1138 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8680FAC325EBF62D007E1138 /* TransactionListView.swift */,
+				864D9A8C25D99023004722C3 /* MainScreenView.swift */,
+				864D9AB825D99074004722C3 /* QRCodeView.swift */,
+				86DC1FD9260A70500071AD56 /* SignInWithAppleButton.swift */,
+				86DC1FDE260A72300071AD56 /* SignInView.swift */,
+				86CCE8FB262C30A100BA3C1F /* MenuView.swift */,
+				86CCE9E6262E019000BA3C1F /* ContentView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		868A22B525EC3870005A2B8F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				868A22B925EC38B3005A2B8F /* TransactionRepository.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		86DC1FE3260A785F0071AD56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				86DC1FE4260A78C50071AD56 /* SignInWithAppleCoordinator.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		86DC2003261B3CB90071AD56 /* CheckCheckClip */ = {
+			isa = PBXGroup;
+			children = (
+				86DC2004261B3CB90071AD56 /* CheckCheckClipApp.swift */,
+				86DC2006261B3CB90071AD56 /* ContentView.swift */,
+				86DC2008261B3CC00071AD56 /* Assets.xcassets */,
+				86DC200D261B3CC00071AD56 /* Info.plist */,
+				86DC200E261B3CC00071AD56 /* CheckCheckClip.entitlements */,
+				86DC200A261B3CC00071AD56 /* Preview Content */,
+			);
+			path = CheckCheckClip;
+			sourceTree = "<group>";
+		};
+		86DC200A261B3CC00071AD56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86DC200B261B3CC00071AD56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86DC2016261B3CC00071AD56 /* CheckCheckClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				86DC2017261B3CC00071AD56 /* CheckCheckClipTests.swift */,
+				86DC2019261B3CC00071AD56 /* Info.plist */,
+			);
+			path = CheckCheckClipTests;
+			sourceTree = "<group>";
+		};
+		86DC2021261B3CC00071AD56 /* CheckCheckClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86DC2022261B3CC00071AD56 /* CheckCheckClipUITests.swift */,
+				86DC2024261B3CC00071AD56 /* Info.plist */,
+			);
+			path = CheckCheckClipUITests;
+			sourceTree = "<group>";
+		};
+		86F71D9725EC05BC00EB3F79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86F71D9825EC060400EB3F79 /* TransactionCellViewModel.swift */,
+				86F71DA025EC0B3B00EB3F79 /* TransactionListViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		E8DDE1D9B1DE6B795D0A4623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F8D1A5A6636CE21F8BA7674 /* Pods-CheckCheck.debug.xcconfig */,
+				972E596FC0CA4F6D81647559 /* Pods-CheckCheck.release.xcconfig */,
+				AC1514D3BB4ADD951F30EDDF /* Pods-CheckCheck-CheckCheckUITests.debug.xcconfig */,
+				ABD6F5BAD57C32DD538A1C65 /* Pods-CheckCheck-CheckCheckUITests.release.xcconfig */,
+				7D3A04D22003384DC9393263 /* Pods-CheckCheckTests.debug.xcconfig */,
+				09093C7455014351BE10BF56 /* Pods-CheckCheckTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,13 +382,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864D9AAC25D99027004722C3 /* Build configuration list for PBXNativeTarget "CheckCheck" */;
 			buildPhases = (
+				BE28DA8E7963681BD051337F /* [CP] Check Pods Manifest.lock */,
 				864D9A8325D99023004722C3 /* Sources */,
 				864D9A8425D99023004722C3 /* Frameworks */,
 				864D9A8525D99023004722C3 /* Resources */,
+				24EA4B5D395B6DFFC5CBE984 /* [CP] Embed Pods Frameworks */,
+				86DC2028261B3CC00071AD56 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				86DC2026261B3CC00071AD56 /* PBXTargetDependency */,
 			);
 			name = CheckCheck;
 			productName = CheckCheck;
@@ -154,6 +403,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864D9AAF25D99027004722C3 /* Build configuration list for PBXNativeTarget "CheckCheckTests" */;
 			buildPhases = (
+				D201FD2EF51742B13E1738D0 /* [CP] Check Pods Manifest.lock */,
 				864D9A9425D99027004722C3 /* Sources */,
 				864D9A9525D99027004722C3 /* Frameworks */,
 				864D9A9625D99027004722C3 /* Resources */,
@@ -172,9 +422,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864D9AB225D99027004722C3 /* Build configuration list for PBXNativeTarget "CheckCheckUITests" */;
 			buildPhases = (
+				E3B512FBB874782D2E50DBFC /* [CP] Check Pods Manifest.lock */,
 				864D9A9F25D99027004722C3 /* Sources */,
 				864D9AA025D99027004722C3 /* Frameworks */,
 				864D9AA125D99027004722C3 /* Resources */,
+				5BC855414259B3858813FA81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +436,59 @@
 			name = CheckCheckUITests;
 			productName = CheckCheckUITests;
 			productReference = 864D9AA325D99027004722C3 /* CheckCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		86DC2001261B3CB90071AD56 /* CheckCheckClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DC202F261B3CC00071AD56 /* Build configuration list for PBXNativeTarget "CheckCheckClip" */;
+			buildPhases = (
+				86DC1FFE261B3CB90071AD56 /* Sources */,
+				86DC1FFF261B3CB90071AD56 /* Frameworks */,
+				86DC2000261B3CB90071AD56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckCheckClip;
+			productName = CheckCheckClip;
+			productReference = 86DC2002261B3CB90071AD56 /* CheckCheckClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		86DC2012261B3CC00071AD56 /* CheckCheckClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DC2030261B3CC00071AD56 /* Build configuration list for PBXNativeTarget "CheckCheckClipTests" */;
+			buildPhases = (
+				86DC200F261B3CC00071AD56 /* Sources */,
+				86DC2010261B3CC00071AD56 /* Frameworks */,
+				86DC2011261B3CC00071AD56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86DC2015261B3CC00071AD56 /* PBXTargetDependency */,
+			);
+			name = CheckCheckClipTests;
+			productName = CheckCheckClipTests;
+			productReference = 86DC2013261B3CC00071AD56 /* CheckCheckClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86DC201D261B3CC00071AD56 /* CheckCheckClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DC2031261B3CC00071AD56 /* Build configuration list for PBXNativeTarget "CheckCheckClipUITests" */;
+			buildPhases = (
+				86DC201A261B3CC00071AD56 /* Sources */,
+				86DC201B261B3CC00071AD56 /* Frameworks */,
+				86DC201C261B3CC00071AD56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86DC2020261B3CC00071AD56 /* PBXTargetDependency */,
+			);
+			name = CheckCheckClipUITests;
+			productName = CheckCheckClipUITests;
+			productReference = 86DC201E261B3CC00071AD56 /* CheckCheckClipUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,6 +511,17 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 864D9A8625D99023004722C3;
 					};
+					86DC2001261B3CB90071AD56 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					86DC2012261B3CC00071AD56 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 86DC2001261B3CB90071AD56;
+					};
+					86DC201D261B3CC00071AD56 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 86DC2001261B3CB90071AD56;
+					};
 				};
 			};
 			buildConfigurationList = 864D9A8225D99023004722C3 /* Build configuration list for PBXProject "CheckCheck" */;
@@ -224,6 +540,9 @@
 				864D9A8625D99023004722C3 /* CheckCheck */,
 				864D9A9725D99027004722C3 /* CheckCheckTests */,
 				864D9AA225D99027004722C3 /* CheckCheckUITests */,
+				86DC2001261B3CB90071AD56 /* CheckCheckClip */,
+				86DC2012261B3CC00071AD56 /* CheckCheckClipTests */,
+				86DC201D261B3CC00071AD56 /* CheckCheckClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,8 +552,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86DC1FFA261A49250071AD56 /* icon.PNG in Resources */,
 				864D9A9225D99027004722C3 /* Preview Assets.xcassets in Resources */,
 				864D9A8F25D99027004722C3 /* Assets.xcassets in Resources */,
+				86F71DA625EC263900EB3F79 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,15 +573,153 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86DC2000261B3CB90071AD56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DC200C261B3CC00071AD56 /* Preview Assets.xcassets in Resources */,
+				86DC2009261B3CC00071AD56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DC2011261B3CC00071AD56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DC201C261B3CC00071AD56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24EA4B5D395B6DFFC5CBE984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckCheck/Pods-CheckCheck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckCheck/Pods-CheckCheck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckCheck/Pods-CheckCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC855414259B3858813FA81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckCheck-CheckCheckUITests/Pods-CheckCheck-CheckCheckUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckCheck-CheckCheckUITests/Pods-CheckCheck-CheckCheckUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckCheck-CheckCheckUITests/Pods-CheckCheck-CheckCheckUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE28DA8E7963681BD051337F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D201FD2EF51742B13E1738D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckCheckTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B512FBB874782D2E50DBFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckCheck-CheckCheckUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		864D9A8325D99023004722C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				864D9A8D25D99023004722C3 /* ContentView.swift in Sources */,
+				86DC1FDA260A70500071AD56 /* SignInWithAppleButton.swift in Sources */,
+				864D9AB925D99074004722C3 /* QRCodeView.swift in Sources */,
+				86CCE9E7262E019000BA3C1F /* ContentView.swift in Sources */,
+				86F71D9925EC060400EB3F79 /* TransactionCellViewModel.swift in Sources */,
+				8680FA9B25EBE022007E1138 /* Transaction.swift in Sources */,
+				86F71D3B25EBF72900EB3F79 /* MainScreenView.swift in Sources */,
+				86F71D3725EBF72600EB3F79 /* TransactionListView.swift in Sources */,
+				86DC1FE5260A78C50071AD56 /* SignInWithAppleCoordinator.swift in Sources */,
+				86CCE8FC262C30A100BA3C1F /* MenuView.swift in Sources */,
+				868A22BA25EC38B3005A2B8F /* TransactionRepository.swift in Sources */,
 				864D9A8B25D99023004722C3 /* CheckCheckApp.swift in Sources */,
+				866177C725E2BDC50012BDA9 /* Data.swift in Sources */,
+				86DC1FDF260A72300071AD56 /* SignInView.swift in Sources */,
+				86F71DA125EC0B3B00EB3F79 /* TransactionListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +739,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86DC1FFE261B3CB90071AD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DC2007261B3CB90071AD56 /* ContentView.swift in Sources */,
+				86DC2005261B3CB90071AD56 /* CheckCheckClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DC200F261B3CC00071AD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DC2018261B3CC00071AD56 /* CheckCheckClipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DC201A261B3CC00071AD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DC2023261B3CC00071AD56 /* CheckCheckClipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +776,21 @@
 			isa = PBXTargetDependency;
 			target = 864D9A8625D99023004722C3 /* CheckCheck */;
 			targetProxy = 864D9AA425D99027004722C3 /* PBXContainerItemProxy */;
+		};
+		86DC2015261B3CC00071AD56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86DC2001261B3CB90071AD56 /* CheckCheckClip */;
+			targetProxy = 86DC2014261B3CC00071AD56 /* PBXContainerItemProxy */;
+		};
+		86DC2020261B3CC00071AD56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86DC2001261B3CB90071AD56 /* CheckCheckClip */;
+			targetProxy = 86DC201F261B3CC00071AD56 /* PBXContainerItemProxy */;
+		};
+		86DC2026261B3CC00071AD56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86DC2001261B3CB90071AD56 /* CheckCheckClip */;
+			targetProxy = 86DC2025261B3CC00071AD56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,9 +913,12 @@
 		};
 		864D9AAD25D99027004722C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8D1A5A6636CE21F8BA7674 /* Pods-CheckCheck.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheckCheck/CheckCheck.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CheckCheck/Preview Content\"";
 				DEVELOPMENT_TEAM = 6G8588UQV6;
@@ -436,9 +938,12 @@
 		};
 		864D9AAE25D99027004722C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972E596FC0CA4F6D81647559 /* Pods-CheckCheck.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheckCheck/CheckCheck.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CheckCheck/Preview Content\"";
 				DEVELOPMENT_TEAM = 6G8588UQV6;
@@ -458,8 +963,8 @@
 		};
 		864D9AB025D99027004722C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3A04D22003384DC9393263 /* Pods-CheckCheckTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G8588UQV6;
@@ -480,8 +985,8 @@
 		};
 		864D9AB125D99027004722C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09093C7455014351BE10BF56 /* Pods-CheckCheckTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G8588UQV6;
@@ -502,8 +1007,8 @@
 		};
 		864D9AB325D99027004722C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1514D3BB4ADD951F30EDDF /* Pods-CheckCheck-CheckCheckUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G8588UQV6;
 				INFOPLIST_FILE = CheckCheckUITests/Info.plist;
@@ -522,8 +1027,8 @@
 		};
 		864D9AB425D99027004722C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD6F5BAD57C32DD538A1C65 /* Pods-CheckCheck-CheckCheckUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G8588UQV6;
 				INFOPLIST_FILE = CheckCheckUITests/Info.plist;
@@ -537,6 +1042,136 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CheckCheck;
+			};
+			name = Release;
+		};
+		86DC2029261B3CC00071AD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheckCheckClip/CheckCheckClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckCheckClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G8588UQV6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CheckCheckClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.Hollovic.CheckCheck.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86DC202A261B3CC00071AD56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheckCheckClip/CheckCheckClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckCheckClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G8588UQV6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CheckCheckClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.Hollovic.CheckCheck.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86DC202B261B3CC00071AD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G8588UQV6;
+				INFOPLIST_FILE = CheckCheckClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.Hollovic.CheckCheck.CheckCheckClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckCheckClip.app/CheckCheckClip";
+			};
+			name = Debug;
+		};
+		86DC202C261B3CC00071AD56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G8588UQV6;
+				INFOPLIST_FILE = CheckCheckClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.Hollovic.CheckCheck.CheckCheckClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckCheckClip.app/CheckCheckClip";
+			};
+			name = Release;
+		};
+		86DC202D261B3CC00071AD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G8588UQV6;
+				INFOPLIST_FILE = CheckCheckClipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.Hollovic.CheckCheck.CheckCheckClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckCheckClip;
+			};
+			name = Debug;
+		};
+		86DC202E261B3CC00071AD56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G8588UQV6;
+				INFOPLIST_FILE = CheckCheckClipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.Hollovic.CheckCheck.CheckCheckClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckCheckClip;
 			};
 			name = Release;
 		};
@@ -575,6 +1210,33 @@
 			buildConfigurations = (
 				864D9AB325D99027004722C3 /* Debug */,
 				864D9AB425D99027004722C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DC202F261B3CC00071AD56 /* Build configuration list for PBXNativeTarget "CheckCheckClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DC2029261B3CC00071AD56 /* Debug */,
+				86DC202A261B3CC00071AD56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DC2030261B3CC00071AD56 /* Build configuration list for PBXNativeTarget "CheckCheckClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DC202B261B3CC00071AD56 /* Debug */,
+				86DC202C261B3CC00071AD56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DC2031261B3CC00071AD56 /* Build configuration list for PBXNativeTarget "CheckCheckClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DC202D261B3CC00071AD56 /* Debug */,
+				86DC202E261B3CC00071AD56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
